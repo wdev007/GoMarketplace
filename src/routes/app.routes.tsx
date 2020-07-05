@@ -39,6 +39,7 @@ const AppRoutes: React.FC = () => (
         },
 
         headerBackImage: () => <FeatherIcon name="chevron-left" size={24} />,
+        headerBackAllowFontScaling: true,
       }}
       name="Cart"
       component={Cart}

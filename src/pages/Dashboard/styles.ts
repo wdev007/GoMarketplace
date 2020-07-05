@@ -18,6 +18,8 @@ export const ProductContainer = styled.View`
   margin-top: 60px;
   flex: 1;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ProductList = styled(
